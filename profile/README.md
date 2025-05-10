@@ -1,9 +1,3 @@
-## 0. 개발 인원
-
-### 프론트엔드 : 이동현
-
-### 백엔드 : 조성민
-
 ## **1. 서비스 기획서(요약/소개)**
 
 - **서비스명 : 숨터**
@@ -15,7 +9,7 @@
     - 가족/지인과의 관계 단절, 사회 진입에 두려움을 가진 청년
 - **핵심 기능 요약 :**
     - **심리검사(설문):** 자신의 은둔 성향/단계(레벨)를 진단할 수 있는 설문 제공
-    - **맞춤형 미션 제공:** 설문 결과에 따라 난이도/유형별 현실 기반 미션 자동 생성
+    - **맞춤형 미션 제공:** 설문 결과에 따라 난이도/유형별 현실 기반 미션 자동 생성 단순한 설문 문항이 아니라 논문을 통해 찾은 히키코모리에 대한 답변과 결과 해석이 존재함]
         
         (예: 산책, 음식점 방문, 음성 읽기, 일기 작성 등)
         
@@ -59,7 +53,8 @@
     - **데이터 기반 성장 추적:**
         
         일간/주간 변화, 목표 달성률 등 시각화로 자기효능감 강화
-        
+      
+
 
 ## **유저 플로우 (User Flow)**
 
@@ -149,20 +144,28 @@
       ▼
 [친구/공유/피드백 등 부가 기능 처리]
 ```
+<img width="302" alt="image" src="https://github.com/user-attachments/assets/420620b6-d882-4fe4-8187-aec91993f0bc" />
 
 ## 기술 스택
 
 ### 프론트엔드
 
-- React + TypeScript + Vite 기반의 최신 프론트엔드 환경을 구축하여,
-빠른 개발, 타입 안정성, 코드 품질을 모두 잡았습니다.
-- Tailwind css를 이용해 섬세한 디자인을 가능하게 했습니다
-
+## 개발 환경
+### 프론트엔드
+![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
+![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white)
+![Zustand](https://img.shields.io/badge/zustand-%2320232a.svg?style=for-the-badge)
+![TailwindCSS](https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white)
+![React Query](https://img.shields.io/badge/-React%20Query-FF4154?style=for-the-badge&logo=react%20query&logoColor=white)
+<br />
 ### 백엔드
+![NestJS](https://img.shields.io/badge/nestjs-%23E0234E.svg?style=for-the-badge&logo=nestjs&logoColor=white)
+![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white)
+![Prisma](https://img.shields.io/badge/Prisma-3982CE?style=for-the-badge&logo=Prisma&logoColor=white)
+### 협업 도구 및 배포
+![Swagger](https://img.shields.io/badge/-Swagger-%23Clojure?style=for-the-badge&logo=swagger&logoColor=white)
+![Vercel](https://img.shields.io/badge/vercel-%23000000.svg?style=for-the-badge&logo=vercel&logoColor=white)
 
-- NestJS, Prisma, JWT, OpenAI(GPT) 등 최신 백엔드 기술 스택을 활용하여 **안정적이고 확장성 높은 서버 아키텍처** 를 구현하였습니다.
-- 미션 자동 생성, 인증(사진, GPS, 음성), 점수/뱃지 관리 등 **복합적인 비즈니스 로직을 실시간으로 처리**할 수 있는 구조를 완성했습니다.
-- 클린 코드, 모듈화, DTO/서비스/컨트롤러 분리 등 **코드 품질과 유지보수성**을 확보했습니다.
 
 ## **숨터의 장점**
 
