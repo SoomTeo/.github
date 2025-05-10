@@ -1,6 +1,7 @@
 ## **1. 서비스 기획서(요약/소개)**
 
 - **서비스명 : 숨터**
+- **배포 주소:** https://soomteo.vercel.app/
 - **목표(미션)**
     - 은둔형 외톨이(히키코모리) 청년들이 사회에 대한 두려움을 극복하고, 일상 속 작은 행동 변화를 통해 점진적으로 사회와 연결될 수 있도록 행동 개선을 유도하는 맞춤형 미션/심리 지원 서비스
 - **주요 타겟(사용자) :**
@@ -144,11 +145,8 @@
       ▼
 [친구/공유/피드백 등 부가 기능 처리]
 ```
-<img width="302" alt="image" src="https://github.com/user-attachments/assets/420620b6-d882-4fe4-8187-aec91993f0bc" />
 
 ## 기술 스택
-
-## 개발 환경
 ### 프론트엔드
 ![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
 ![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white)
@@ -184,3 +182,8 @@
 - **은둔형 외톨이(히키코모리) 문제**라는 사회적으로 중요한 이슈에 실질적 행동 변화를 유도하는 **구체적 솔루션**을 제시합니다.
 - **사회적 고립, 우울, 무기력 등** 청년 세대의 심각한 문제를 **데이터 기반, 행동 기반, AI 기반** 으로 해결합니다.
 - **친구/공유/커뮤니티 기능**을 통해 고립감 해소, 사회적 연결, 자기효능감 증진에 기여합니다.
+
+| 전체적인 모습 | 설문조사/회원가입 | 미션 확인 및 수행 |
+|:---:|:---:|:---:|
+| ![전체적인 모습](https://github.com/user-attachments/assets/b5bd4d61-4772-498b-b40c-1097a1189eed) <br/> 회원가입 | ![설문조사](https://github.com/user-attachments/assets/4452dcf4-3cdc-40da-8f3c-88be49ca3a22) <br/> 설문조사 | ![미션확인 및 수행](https://github.com/user-attachments/assets/976cd4db-73a0-45f3-adb2-50e8aef8c3d1) <br/> 미션 확인/수행 |
+
